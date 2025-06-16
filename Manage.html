@@ -37,7 +37,7 @@
 
         <!-- This is the first section -->
         <section id="section-1">
-            <div class="text-one">
+            <div id="section-1-text">
                <h1>Bring everyone <br> together to build <br> better products.</h1>
 
                 <p>Manage makes it simple for software teams <br> 
@@ -47,12 +47,12 @@
                  
             </div>
             
-            <div  class="IMG" >
+            <div  id="section-1-IMG" >
             <img src="/Resources/illustration-intro.svg" alt="Intro section">
             </div> 
         </section>
         <!-- This is the second section -->
-         <section id="two">
+         <section id="section-2">
             <div class="first-part">
                 <h1>What's different about <br> Manage</h1>
                 <p>Manage provides all the functionality your <br> team needs, without the complexity. Our <br>
@@ -144,32 +144,40 @@
             </section>
             <!-- This is the footer section -->
         
-         <section id="footer">
+         <section class="footer-main">
             <footer>
-                <div>
+                <div class="footer-logo">
                     <img src="/Resources/logo.svg" alt="Logo">
-                    <p>Copyright 2020. All Rights Reserved</p>
                 </div>
-
-                <ul>
+                <div class="footer-links">
+                      <ul>
                     <li>Home</li>
                     <li>Pricing</li> 
                     <li>Products</li>
                     <li>About us</li>
-                    <li>Careers</li>
+                </ul>
+                <ul>
+                     <li>Careers</li>
                     <li>Community</li>
                     <li>Privacy Policy</li>
                 </ul>
-                <input class="inbox" type="text" placeholder="Updates in your inbox">
+                </div>
+                    
+                <div id="footer-input">
+                     <input class="inbox" type="text" placeholder="Updates in your inbox">
 
-                <button id="get-started">Go</button>
-
+                    <button id="footer-button">Go</button>
+                </div>
+              
                 <div>
                     <img src="/Resources/icon-facebook.svg" alt="Facebook">
                     <img src="/Resources/icon-youtube.svg" alt="YouTube">
                     <img src="/Resources/icon-twitter.svg" alt="Twitter">
                     <img src="/Resources/icon-pinterest.svg" alt="Pinterest">
                     <img src="/Resources/icon-instagram.svg" alt="Instagram">
+                </div>
+                <div class="footer-bottom">
+                       <p>Copyright 2020. All Rights Reserved</p>
                 </div>
             </footer>
          </section>

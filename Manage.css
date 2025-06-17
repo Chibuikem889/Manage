@@ -263,30 +263,36 @@ nav{
 .footer-main{
     /* border: 3px solid black; */
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row; */
+    align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 15px;
+    padding: 25px;
     background-color: var(--Very-Dark-Blue);
+    position: relative;
 }
 .footer-logo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 10px;
 }
 .footer-links{
     display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }
 .footer-links ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    list-style-type: none;
-    gap: 30px;
+    list-style: none;
+    gap: 10px;
     color: white;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 50px;
 }
 .inbox{
     padding: 10px;
@@ -299,6 +305,7 @@ nav{
     padding: 5px 15px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 #footer-input{
@@ -307,7 +314,17 @@ nav{
     align-items: center;
     gap: 10px; */
     justify-content: flex-end;
-    /* width: 100%;o */
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.footer-icons{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 5px;
 }
 .footer-bottom{
     text-align: right;

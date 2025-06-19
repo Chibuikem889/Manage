@@ -11,7 +11,7 @@
     --Dark-Blue: hsl(228, 39%, 23%);
 
     /* active-states */
-    --orange-shade:rgb(227 158 99)
+    --orange-shade:rgb(249,143,117)
     /* neutral colors */
    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
     --Very-Dark-Blue: hsl(233, 12%, 13%);
@@ -63,7 +63,8 @@ nav{
 }
 #get-started:hover{
     cursor: pointer;
-    background-color: var();
+    background-color: var(--orange-shade);
+    transition: ease-in-out 0.1s;
 }
 #section-1{
     /* border: 3px solid black; */

@@ -10,8 +10,6 @@
     --bright-red : hsl(12,88%,59%);
     --Dark-Blue: hsl(228, 39%, 23%);
 
-    /* active-states */
-    --orange-shade:rgb(249,143,117)
     /* neutral colors */
    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
     --Very-Dark-Blue: hsl(233, 12%, 13%);
@@ -63,7 +61,7 @@ nav{
 }
 #get-started:hover{
     cursor: pointer;
-    background-color: var(--orange-shade);
+    background-color: orange;
     transition: ease-in-out 0.1s;
 }
 #section-1{
@@ -246,6 +244,8 @@ nav{
 
 .section-3 button:hover{
     cursor: pointer;
+    transition: ease-in-out 0.1s;
+   background-color: var(--Very-Light-Gray);
 }
 #section-4{
     /* border: 3px solid black; */
@@ -322,6 +322,11 @@ footer{
     padding: 5px 15px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+}
+#footer-button:hover{
+    background-color: orange;
+    transition: ease-in-out 0.1s;
     cursor: pointer;
 }
 
